@@ -1,0 +1,276 @@
+.weblogo{
+    width:65px;
+}
+.moblogo{
+    display: none;
+}
+@media(max-width: 700px){
+    .moblogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background-color: #fcb01b !important;
+    }
+}
+.navbar{
+    background-color: rgb(57, 56, 56);
+}
+.navbar li{
+    padding: 0 10px;
+}
+.navbar{
+    background: rgb(6 3 3 / 48%);
+}
+.c{
+    text-align: center;
+}
+li:hover{
+    color:#fcb01b;
+    background-color: #fbb029;
+}
+span{
+    color: #fbb029;
+}
+
+.aa{
+    padding: 0px;
+}
+.a{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.b{
+    text-align: justify;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+}
+.img{
+    height: 70%;
+}
+.ab{
+    position: relative;
+    top:-11px;
+    
+}
+.ab a{
+    background: #fbb029;
+    width: auto;
+    padding: 11px 35px;
+
+   
+}
+.ac{
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fbac29;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.ad{
+    height: 75%;
+    position: relative;
+    right: -75px;
+}
+.as{
+    color: aliceblue;
+}
+.haa{
+    background-image: url(https://www.firstfiddle.in/assets/images/new-about-us-1.jpg);
+    background-size: cover;
+    /* height:100%; */
+    width:100%;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    color:white;
+    /* padding-top: 102px; */
+    padding: 300px 0px;
+}
+.hac{
+    background-image: url(https://www.firstfiddle.in/assets/images/outletbanner.png);
+    background-size: cover;
+    /* height:100%; */
+    width:100%;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    color:white;
+    /* padding-top: 102px; */
+    padding: 300px 0px;
+}
+.ham{
+    background-image: url(https://www.firstfiddle.in/assets/images/new-our-team.jpg);
+    background-size: cover;
+    /* height:100%; */
+    width:100%;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    color:white;
+    /* padding-top: 102px; */
+    padding: 300px 0px;
+}
+.haf{
+    background-image: url(https://www.firstfiddle.in/assets/images/press-new-1.jpg);
+    background-size: cover;
+    /* height:100%; */
+    width:100%;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    color:white;
+    /* padding-top: 102px; */
+    padding: 300px 0px;
+}
+    
+.sm{
+    background-image: url(https://www.firstfiddle.in/assets/images/outletbanner.png);
+    background-size: cover;
+    /* height:100%; */
+    width:100%;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    color:white;
+    padding-top: 102px;
+
+}
+.mi{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.sm p,.hc p{
+    font-family: 'prague';
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 40px;
+    /* letter-spacing: 1px; */
+    /* margin-bottom: 5em; */
+    /* padding: 0px 176px; */
+    margin-bottom: 10rem;
+}
+.smm,.hd{
+    display: inline-block;
+}
+.am{
+    background-color: #fbac29;
+    font-weight: bolder;
+    color: aliceblue;
+    padding: 18px 58px;
+    position: relative;
+    top: -93px;
+}
+.abc{
+    background: black;
+    /* height: 150px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.abcd{
+    /* padding: 0px 347px; */
+}
+.aab{
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.hb{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+.hc{
+    background-image: url(https://www.firstfiddle.in/assets/images/gamebanner.jpg);
+    background-size: cover;
+    /* height:100%; */
+    width:100%;
+    background-position: center;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    color:white;
+    padding-top: 102px;
+}
+.b1 img{
+    width: 100%;
+}
+.b1 .b2{
+    padding: 25px 35px;
+}
+.m1{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0%;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.m2{
+    font-size: 80px;
+    font-family: 'prague', 'Helvetica';
+}
+@media only screen and (max-width: 700px)
+{
+.m1{
+    text-align: center;
+    margin-right: 0%;
+    
+}
+.m2{font-size: 50px !important;}
+
+.pa{
+    padding: 0px 0px !important;
+}
+
+
+}
+.pa{
+    padding: 0px 135px;
+   
+}
+.pb{
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    
+    padding: 50px;
+    /* margin-left: 100px; */
+    /*margin-right: 100px; */
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.pc{
+    
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.pd{
+    height: 425px;
+    overflow-y: scroll;
+    margin-top: 25px;
+   
+}
+.scrollable::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #fba929;
+}
+

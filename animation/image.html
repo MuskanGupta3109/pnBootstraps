@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img{
+        animation: updown 2s ease-in-out infinite alternate-reverse both;
+    }
+
+    @keyframes updown{
+        0%{
+            transform:translate(10px);
+        }
+        100%{
+            transform:translate(-10px);
+        }
+        
+    }
+
+
+    .imgg{
+        animation: leftright 2s ease-in-out infinite alternate-reverse both;
+    }
+
+    @keyframes leftright{
+        0%{
+            transform:translate(0,-10px);
+        }
+        100%{
+            transform:translate(0,10px);
+        }
+        
+    }
+
+</style>
+<body>
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="download.jpeg" width="300px" class="img">
+        <br>
+        <br>
+        <img src="download.jpeg" width="300px" class="imgg">
+
+    </center>
+</body>
+</html>

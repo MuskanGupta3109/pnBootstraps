@@ -1,0 +1,36 @@
+.m1{
+    background:darkslategrey ;
+}
+
+
+
+
+
+
+
+.m2{
+    background-color: black;
+    background-color: transparent;
+    /* opacity: 0.5; */
+    border: 2px solid black;
+   
+    box-shadow: 0 4px 8px 0 rgba(36, 195, 70, 0.2), 0 6px 20px 0 rgba(32, 35, 5, 0.8) !important;
+    background: linear-gradient(-69deg,#2f4f4f 11%,#ffffff 85%);
+
+}
+.m3{
+    border-radius: 0px;
+}
+/* .m4{
+    border-radius: none;
+} */
+.m4{
+    border-radius: 0px !important;
+   background: transparent !important;
+   color: rgb(6, 11, 9) !important;
+   font-weight: 900;
+   border-top: none !important;
+   border-left: none !important;
+
+   border-right: none !important;
+}

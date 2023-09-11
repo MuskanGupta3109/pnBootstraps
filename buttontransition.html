@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*.btn_basic::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #e49900;
+            z-index: -1;
+            will-change: transform;
+            transform: translateY(-101%);
+            -webkit-transition: transform .35s;
+            -webkit-transition: top 0.09s ease-in;
+        }
+        .btn_basic.c4::before {
+            background-color: #D94F4F;
+        }
+        
+        .btn_basic{
+            background-color: #D94F4F;
+            -webkit-transition: transform .35s;
+        }*/
+        
+        a{
+            position: relative;
+            display:block;
+            height: 45px;
+            width: 150px;
+            margin: 10px 7px;
+            padding: 5px 5px;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: 2px;
+            color: #383736;
+            border: 2px #383736 solid;
+            border-radius: 4px;
+            text-transform: uppercase;
+            outline: 0;
+            overflow:hidden;
+            background-color: #D94F4F;
+            /*background: */;
+            z-index: 1;
+            cursor: pointer;
+            transition:         0.08s ease-in;
+            -o-transition:      0.08s ease-in;
+            -ms-transition:     0.08s ease-in;
+            -moz-transition:    0.08s ease-in;
+            -webkit-transition: 0.08s ease-in;
+          }
+
+
+
+
+
+        
+        button{
+            position: relative;
+            display:block;
+            height: 45px;
+            width: 150px;
+            margin: 10px 7px;
+            padding: 5px 5px;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: 2px;
+            color: #383736;
+            border: 2px #383736 solid;
+            border-radius: 4px;
+            text-transform: uppercase;
+            outline: 0;
+            overflow:hidden;
+            background: none;
+            z-index: 1;
+            cursor: pointer;
+            transition:         0.08s ease-in;
+            -o-transition:      0.08s ease-in;
+            -ms-transition:     0.08s ease-in;
+            -moz-transition:    0.08s ease-in;
+            -webkit-transition: 0.08s ease-in;
+          }
+          
+          .fill:hover {
+            color: whitesmoke;
+          }
+          
+          .fill:before {
+            content: "";
+            position: absolute;
+            background: #383736;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 100%;
+            z-index: -1;
+            -webkit-transition: top 0.09s ease-in;
+          }
+          
+          .fill:hover:before {
+            top: 0;
+          }
+          
+
+
+          body{
+            background:url('https://source.unsplash.com/random')no-repeat center center/cover;
+            
+          }
+
+    </style>
+</head>
+<body>
+    <a class="fill">log in</a>
+
+    <button class="fill">view strory</button>
+    <button class="fill">view strory</button>
+
+
+
+</body>
+</html>
